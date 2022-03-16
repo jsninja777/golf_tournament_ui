@@ -1,0 +1,53 @@
+@import "../node_modules/antd/dist/antd.css";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.space-align-block {
+  flex: none;
+  margin: 8px;
+  padding: 4px;
+}
+
+.clickable-pointer {
+  cursor: pointer;
+}
+
+.ant-layout-header {
+    height: 64px;
+    padding: 0 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 64px;
+    background: #001529;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.ant-picker {
+  width: 237px;
+}
+.link {
+  color: #1890ff;
+  text-decoration: underline;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
